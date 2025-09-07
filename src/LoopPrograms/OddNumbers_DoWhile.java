@@ -4,14 +4,19 @@ public class OddNumbers_DoWhile {
 
     public static void main(String[] args) {
 
-        int i = 3;
+        int i=2; //initialization
 
         do {
-            System.out.println(i);
 
-            i=i+2;
+
+            if(i%2!=0){ //condition
+
+                System.out.println(i); //statement
+
+            }
+            i=i+1; //update
         }
 
-        while (i<=20);
+        while (i<=20); //condition
     }
 }

@@ -9,13 +9,16 @@ public class OddNumbers_While {
          */
 
     public static void main(String[] args) {
-        int a=3;
+        int a=2;
 
         while(a<=20){
 
-            System.out.println(a);
+            if (a%2==1) {
 
-            a=a+2;
+                System.out.println(a);
+            }
+
+            a=a+1;
         }
         System.out.println("While loop ends here");
     }

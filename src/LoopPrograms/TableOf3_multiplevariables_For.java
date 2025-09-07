@@ -10,16 +10,19 @@ public class TableOf3_multiplevariables_For {
 
         Doubt -
        Why code works with (n1+n2) added in print statement
-       Why does not work when,n3 is declared as (n1+n2) and in print statement, added as n3
+       Why does not work, when n3 is declared as (n1+n2) and in print statement, added as n3
 
 */
         public static void main(String[] args) {
 
-            for (int n1 =3, n2 =1;  n2<=10 ; n2 = n2 + 1)
+            int n1 =3;
+
+            for (int n2 =1;  n2<=10 ; n2 = n2+1)
 
             {
+                int n3=n1*n2;
 
-                System.out.println(n1+ "X" +n2+"=" +(n1*n2));
+                System.out.println(n1+ "*" +n2+"=" +n3);
             }
         }
 

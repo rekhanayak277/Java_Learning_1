@@ -11,8 +11,9 @@ public class NumberReverse_For {
          */
         {
 
-            for (int i = 10; i > 0; i = i - 1) {
-                System.out.println(i);
+            for (int i = 10; i > 0; i = i-1) {  //(initialization; Condition ; Update)
+
+                System.out.println(i); //Statement
             }
             System.out.println("Numbers are printed in reverse order");
         }

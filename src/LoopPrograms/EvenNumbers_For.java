@@ -10,9 +10,9 @@ public class EvenNumbers_For {
         only even numbers, so increment has to be +2
          */
 
-    for (int i = 2; i<=20; i=i+2)
+    for (int i = 2; i<=20; i=i+2) //(initialization ; Condition ; Updation)
         {
-        System.out.println(i);
+        System.out.println(i); //Statement
         }
         System.out.println("This is the statement after for loop");
     }

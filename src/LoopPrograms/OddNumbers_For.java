@@ -10,11 +10,14 @@ public class OddNumbers_For {
         only odd numbers, so increment has to be +2
          */
 
-            for (int i =3; i<=20; i=i+2)
+            for (int i=2; i<=20; i=i+1) //(initialization ; condition;update)
             {
-                System.out.println(i);
+                if (i%2!=0) { //condition
+
+                System.out.println(i); //statement
+                }
             }
-            System.out.println("This is the statement after for loop");
+            System.out.println("This is the statement after for loop"); //statement
         }
     }
 

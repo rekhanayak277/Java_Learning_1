@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class OddNumbers_For {
 
@@ -10,7 +10,7 @@ public class OddNumbers_For {
         only odd numbers, so increment has to be +2
          */
 
-            for (int i=2; i<=20; i=i+1) //(initialization ; condition;update)
+            for (int i=2; i<=20; i++) //(initialization ; condition;update)
             {
                 if (i%2!=0) { //condition
 

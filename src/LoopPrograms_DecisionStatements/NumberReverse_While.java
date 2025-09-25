@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class NumberReverse_While {
 /*
@@ -16,7 +16,7 @@ public class NumberReverse_While {
 
             System.out.println(n); //print the statement
 
-            n=n-1; //update
+            n-=1; //update
         }
         System.out.println("End of while loop"); //out of the loop statement
     }

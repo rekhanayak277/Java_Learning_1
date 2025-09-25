@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class NumberReverse_DoWhile {
 
@@ -9,7 +9,7 @@ public class NumberReverse_DoWhile {
         do {
             System.out.println(j); //statement
 
-            j=j-1; //update
+            j-=1; //update
         }
         while (j>=1); // condition
     }

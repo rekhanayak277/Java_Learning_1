@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf10_MultipleVariables_DoWhile {
 
@@ -14,7 +14,7 @@ public class TableOf10_MultipleVariables_DoWhile {
 
             System.out.println(n + "*" + j + "=" + k); //print statement
 
-            j=j+1; //update
+            j++; //update
 
         }
 

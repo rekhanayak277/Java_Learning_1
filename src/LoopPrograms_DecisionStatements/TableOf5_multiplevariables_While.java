@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf5_multiplevariables_While {
 
@@ -13,7 +13,7 @@ public class TableOf5_multiplevariables_While {
             int i3 = i1 * i2;
 
             System.out.println(i1 + "*" + i2 + "=" + i3);
-            i2 = i2 + 1;
+            i2++;
         }
     }
 }

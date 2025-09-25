@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf5_DoWhile {
 
@@ -10,7 +10,7 @@ public class TableOf5_DoWhile {
 
             System.out.println(n);
 
-            n = n + 5;
+            n = n+=5;
         }
 
         while (n <= 50);

@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class OddNumbers_DoWhile {
 
@@ -14,7 +14,7 @@ public class OddNumbers_DoWhile {
                 System.out.println(i); //statement
 
             }
-            i=i+1; //update
+            i+=1; //update
         }
 
         while (i<=20); //condition

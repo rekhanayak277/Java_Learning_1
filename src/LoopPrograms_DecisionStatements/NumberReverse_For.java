@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class NumberReverse_For {
 
@@ -11,7 +11,7 @@ public class NumberReverse_For {
          */
         {
 
-            for (int i = 10; i > 0; i = i-1) {  //(initialization; Condition ; Update)
+            for (int i = 10; i > 0; i-=1) {  //(initialization; Condition ; Update)
 
                 System.out.println(i); //Statement
             }

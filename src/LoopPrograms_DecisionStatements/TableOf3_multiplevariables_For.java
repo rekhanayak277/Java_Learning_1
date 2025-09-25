@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf3_multiplevariables_For {
 /*
@@ -17,7 +17,7 @@ public class TableOf3_multiplevariables_For {
 
             int n1 =3;
 
-            for (int n2 =1;  n2<=10 ; n2 = n2+1)
+            for (int n2 =1;  n2<=10 ; n2++)
 
             {
                 int n3=n1*n2;

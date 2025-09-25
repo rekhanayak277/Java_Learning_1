@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf10_While {
      /*
@@ -16,7 +16,7 @@ public class TableOf10_While {
 
         System.out.println(n1);
 
-        n1 = n1 + 10;
+        n1+=10;
     }
     }
 }

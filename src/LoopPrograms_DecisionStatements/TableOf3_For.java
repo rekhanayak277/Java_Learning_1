@@ -1,4 +1,4 @@
-package LoopPrograms;
+package LoopPrograms_DecisionStatements;
 
 public class TableOf3_For {
 
@@ -10,7 +10,7 @@ public class TableOf3_For {
             */
 
     public static void main(String[] args) {
-        for (int n1=3; n1<=30; n1=n1+3){
+        for (int n1=3; n1<=30; n1+=3){
 
             System.out.println( n1);
         }

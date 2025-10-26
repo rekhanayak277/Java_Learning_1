@@ -1,10 +1,11 @@
-package LoopPrograms_DecisionStatements;
+package LoopPrograms_DecisionStatements.LoopPrograms;
 
 // Write a program using for loop - Check if Number is Armstrong
 
 public class CheckGivenNumberIsAnArmstrongNumber {
 
     public static void main(String[] args) {
+
         int n = 1634; // given number
 
         int s = 0; // storing sum of quadrates

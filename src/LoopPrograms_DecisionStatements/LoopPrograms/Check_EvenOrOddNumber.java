@@ -1,4 +1,4 @@
-package LoopPrograms_DecisionStatements;
+package LoopPrograms_DecisionStatements.LoopPrograms;
 
 public class Check_EvenOrOddNumber {
 

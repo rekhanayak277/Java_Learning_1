@@ -26,7 +26,7 @@ public class FibonacciNumbers_While {
         int second = 1; // second number of the series initialized
 
 
-        while (n<6) { //Condition // doubt here why n<=5 not n<6
+        while (n<6) { //Condition
 
             System.out.println(first);
 

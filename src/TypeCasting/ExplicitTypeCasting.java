@@ -1,6 +1,6 @@
 package TypeCasting;
 
-public class DemoExplicitTypeCasting {
+public class ExplicitTypeCasting {
 
     public static void main(String[] args) {
 

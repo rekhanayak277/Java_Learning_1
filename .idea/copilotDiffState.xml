@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/LoopPrograms_DecisionStatements/Practisemethod.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/LoopPrograms_DecisionStatements/Practisemethod.java" />
+              <option name="originalContent" value="package LoopPrograms_DecisionStatements;&#10;&#10;public class Practisemethod {&#10;    &#10;    // program to reverse the given number input=14578 , output=87541 using logic inside method&#10;}&#10;" />
+              <option name="updatedContent" value="package LoopPrograms_DecisionStatements;&#10;&#10;public class Practisemethod {&#10;    // program to reverse the given number input=14578 , output=87541 using logic inside method&#10;&#10;    // Method to reverse a given integer&#10;    public static int reverseNumber(int num) {&#10;        int reversed = 0;&#10;        while (num != 0) {&#10;            int digit = num % 10;&#10;            reversed = reversed * 10 + digit;&#10;            num = num / 10;&#10;        }&#10;        return reversed;&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        int input = 14578;&#10;        int output = reverseNumber(input);&#10;        System.out.println(&quot;Reversed number: &quot; + output);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

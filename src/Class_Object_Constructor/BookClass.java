@@ -28,9 +28,9 @@ public class BookClass {
         BookClass Book_3 = new BookClass("Book-3" , "Author-1");
 
 
-        System.out.println("The first Book is " + Book_1.Title +" & the author is " + Book_1.Author);
-        System.out.println("The first Book is " + Book_2.Title +" & the author is " + Book_2.Author);
-        System.out.println("The first Book is " + Book_3.Title +" & the author is " + Book_3.Author);
+        System.out.println("The first Book is " + Book_1.Title +" and the author is " + Book_1.Author);
+        System.out.println("The first Book is " + Book_2.Title +" and the author is " + Book_2.Author);
+        System.out.println("The first Book is " + Book_3.Title +" and the author is " + Book_3.Author);
 
 
     }

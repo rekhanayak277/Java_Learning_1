@@ -3,17 +3,18 @@ package LoopPrograms_DecisionStatements;
 public class TableOf5_multiplevariables_While {
 
     public static void main(String[] args) {
-        int i1 = 5 ;
+        int num1 = 5 ;
 
-        int i2 = 1;
+        int num2 = 1;
 
-        while (i2 <= 10)
+        while (num2 <= 10)
         {
 
-            int i3 = i1 * i2;
+            int result = num1 * num2;
 
-            System.out.println(i1 + "*" + i2 + "=" + i3);
-            i2++;
+            System.out.println(num1 + "*" + num2 + "=" + result);
+
+            num2++;
         }
     }
 }

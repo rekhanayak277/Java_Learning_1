@@ -10,13 +10,13 @@ public class NumberReverse_While {
 
     public static void main(String[] args) {
 
-        int n=10; //Initialization
+        int number=10; //Initialization
 
-        while(n>=1){ //Condition
+        while(number>=1){ //Condition
 
-            System.out.println(n); //print the statement
+            System.out.println(number); //print the statement
 
-            n-=1; //update
+            number-=1; //update
         }
         System.out.println("End of while loop"); //out of the loop statement
     }

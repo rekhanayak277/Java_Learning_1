@@ -8,12 +8,12 @@ public class MultiplicationTable1To10WithLabelledBreak_ForLoop {
 
         outerloop:
 
-        for (int i = 1; i < 10; i++) // first for loop
+        for (int num1 = 1; num1 < 10; num1++) // first for - loop
 
         {
-            for (int n = 1; n <= 10; n+=1) // second for loop
+            for (int num2= 1; num2 <= 10; num2+=1) // second for - loop
             {
-                int r = n * i; // fpr multiplication table
+                int r = num1 * num2; // fpr multiplication table
 
 
                 if (r > 30 && r % 7 == 0) // condition
@@ -22,7 +22,7 @@ public class MultiplicationTable1To10WithLabelledBreak_ForLoop {
                     break outerloop; // labelled break
 
                 }
-                System.out.println( n + "*" + i + "=" + r);
+                System.out.println( num1 + "*" + num2 + "=" + r);
             }
         }
 

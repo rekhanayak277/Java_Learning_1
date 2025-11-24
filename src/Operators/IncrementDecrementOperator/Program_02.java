@@ -1,6 +1,6 @@
-package IncrementDecrementOperator;
+package Operators.IncrementDecrementOperator;
 
-public class RunProgram2 {
+public class Program_02 {
 
 
     public static void main(String[] args) {

@@ -5,20 +5,20 @@ package LoopPrograms_DecisionStatements;
 public class Swap2NumbersWithout3rdVariable {
 
     public static void main(String[] args) {
-        int a = 15;
-        int b= 28;
+        int num1 = 15;
+        int num2= 28;
 
-        System.out.println(" original values of a is: " + a);
-        System.out.println(" original values of b is: " + b);
+        System.out.println(" original values of a is: " + num1);
+        System.out.println(" original values of b is: " + num2);
 
         // swapping logic without using 3rd variable
 
-        a = a + b ; // now, value of a is 15 + 28 = 43
-        b = a - b ; // now, value of b is 43 - 28 = 15
-        a = a - b ; // now, value of a is 43
+        num1 = num1 + num2 ; // now, value of a is 15 + 28 = 43
+        num2 = num1 - num2 ; // now, value of b is 43 - 28 = 15
+        num1 = num1 - num2 ; // now, value of a is 43
 
-        System.out.println("Now, the value of a is: " + a);
-        System.out.println("Now, the value of a is: " + b);
+        System.out.println("Now, the value of a is: " + num1);
+        System.out.println("Now, the value of a is: " + num2);
 
     }
 }

@@ -5,83 +5,83 @@ package LoopPrograms_DecisionStatements;
 public class CheckPrimeNumbers {
     public static void main(String[] args) {
         // Check number 4
-        int number = 4;
-        int count = 0;
+        int num = 4;
+        int counter = 0;
         int i = 1;
-        while (i <= number) {
-            if (number % i == 0) {
-                count++;
+        while (i <= num) {
+            if (num % i == 0) {
+                counter++;
             }
             i++;
         }
-        if (count == 2) {
-            System.out.println(number + " is a Prime Number");
+        if (counter == 2) {
+            System.out.println(num + " is a Prime Number");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(num + " is not a Prime Number");
         }
 
         // Check number 7
-        number = 7;
-        count = 0;
+        num = 7;
+        counter = 0;
         i = 1;
-        while (i <= number) {
-            if (number % i == 0) {
-                count++;
+        while (i <= num) {
+            if (num % i == 0) {
+                counter++;
             }
             i++;
         }
-        if (count == 2) {
-            System.out.println(number + " is a Prime Number");
+        if (counter == 2) {
+            System.out.println(num + " is a Prime Number");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(num + " is not a Prime Number");
         }
 
         // Check number 11
-        number = 11;
-        count = 0;
+        num = 11;
+        counter = 0;
         i = 1;
-        while (i <= number) {
-            if (number % i == 0) {
-                count++;
+        while (i <= num) {
+            if (num % i == 0) {
+                counter++;
             }
             i++;
         }
-        if (count == 2) {
-            System.out.println(number + " is a Prime Number");
+        if (counter == 2) {
+            System.out.println(num + " is a Prime Number");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(num + " is not a Prime Number");
         }
 
         // Check number 13
-        number = 13;
-        count = 0;
+        num = 13;
+        counter = 0;
         i = 1;
-        while (i <= number) {
-            if (number % i == 0) {
-                count++;
+        while (i <= num) {
+            if (num % i == 0) {
+                counter++;
             }
             i++;
         }
-        if (count == 2) {
-            System.out.println(number + " is a Prime Number");
+        if (counter == 2) {
+            System.out.println(num + " is a Prime Number");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(num + " is not a Prime Number");
         }
 
         // Check number 20
-        number = 20;
-        count = 0;
+        num = 20;
+        counter = 0;
         i = 1;
-        while (i <= number) {
-            if (number % i == 0) {
-                count++;
+        while (i <= num) {
+            if (num % i == 0) {
+                counter++;
             }
             i++;
         }
-        if (count == 2) {
-            System.out.println(number + " is a Prime Number");
+        if (counter == 2) {
+            System.out.println(num + " is a Prime Number");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(num + " is not a Prime Number");
         }
     }
 }

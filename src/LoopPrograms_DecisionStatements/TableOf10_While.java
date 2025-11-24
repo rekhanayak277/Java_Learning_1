@@ -10,13 +10,13 @@ public class TableOf10_While {
      public static void main(String[] args) {
 
 
-    int n1 = 10;
+    int num = 10;
 
-    while (n1<=200) {
+    while (num<=200) {
 
-        System.out.println(n1);
+        System.out.println(num);
 
-        n1+=10;
+        num+=10;
     }
     }
 }

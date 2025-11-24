@@ -1,16 +1,18 @@
 package LoopPrograms_DecisionStatements;
 
+// Print numbers from 10 down to 1 (do-while loop)
+
 public class NumberReverse_DoWhile {
 
     public static void main(String[] args) {
 
-        int j = 20; // initialization
+        int number = 10; // initialization
 
         do {
-            System.out.println(j); //statement
+            System.out.println(number); //statement
 
-            j-=1; //update
+            number--; //update
         }
-        while (j>=1); // condition
+        while (number>=1); // condition
     }
 }

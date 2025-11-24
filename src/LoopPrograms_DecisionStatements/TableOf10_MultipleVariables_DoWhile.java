@@ -4,21 +4,21 @@ public class TableOf10_MultipleVariables_DoWhile {
 
     public static void main(String[] args) {
 
-        int n = 10; //initialization (constant)
-        int j = 1; //initialization (for increment)
+        int first = 10; //initialization (constant)
+        int second = 1; //initialization (for increment)
 
 
         do {
 
-            int k = n * j; //for product )
+            int result = first * second; //for product )
 
-            System.out.println(n + "*" + j + "=" + k); //print statement
+            System.out.println(first + "*" + second + "=" + result); //print statement
 
-            j++; //update
+            second++; //update
 
         }
 
 
-        while (j<=10); //condition
+        while (second<=10); //condition
     }
 }

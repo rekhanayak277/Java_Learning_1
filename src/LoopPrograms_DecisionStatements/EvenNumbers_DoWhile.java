@@ -1,5 +1,7 @@
 package LoopPrograms_DecisionStatements;
 
+// Print even numbers from 2 to 20 (do-while loop)
+
 public class EvenNumbers_DoWhile {
  /*
         even numbers from 2 to 20?
@@ -11,13 +13,13 @@ public class EvenNumbers_DoWhile {
 
     public static void main(String[] args) {
 
-        int n=2; // Initialization
+        int num=2; // Initialization
 
         do {
-            System.out.println(n); //Statement
+            System.out.println(num); //Statement
 
-            n=n+2; // Update
+            num=num+2; // Update
         }
-        while (n<=20); //condition
+        while (num<=20); //condition
     }
 }

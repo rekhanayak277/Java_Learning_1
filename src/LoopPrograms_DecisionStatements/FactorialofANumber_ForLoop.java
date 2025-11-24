@@ -7,15 +7,15 @@ public class FactorialofANumber_ForLoop {
     public static void main(String[] args) {
 
 
-        int n = 10 ;  // to find 10!
+        int num = 10 ;  // to find 10!
 
-        int f = 1; // initialize teh variable for factorial
+        int factorial = 1; // initialize teh variable for factorial
 
-        for  ( int i = 1; i <= n ; i++) { // initialization , condition , update
+        for  ( int i = 1; i <= num ; i++) { // initialization , condition , update
 
-            f = f * i;
+            factorial = factorial * i;
 
         }
-                System.out.println("Factorial of " + n + " is: " + f);
+                System.out.println("Factorial of " + num + " is: " + factorial);
     }
 }

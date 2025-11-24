@@ -15,14 +15,14 @@ public class SkipEvenNumbers_Program {
     public static void main(String[] args) {
 
 
-        for (int n=1 ; n<=20 ; n++) {
+        for (int num=1 ; num<=20 ; num++) {
 
-            if (n%2!=1){
+            if (num%2!=1){
 
                 continue;
             }
 
-            System.out.println(n);
+            System.out.println(num);
         }
 
 

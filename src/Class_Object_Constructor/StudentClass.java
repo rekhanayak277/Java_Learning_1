@@ -21,10 +21,10 @@ public class StudentClass {
         StudentClass Student4 = new StudentClass ("KLM",13 );
 
         System.out.println("Name  "+"Age");
-        System.out.println( Student1.name+"   "+   Student1.age);
-        System.out.println( Student2.name+"   "+   Student2.age);
-        System.out.println( Student3.name+"   "+   Student3.age);
-        System.out.println( Student4.name+"   "+   Student4.age);
+        System.out.println( Student1.name+"   "+  Student1.age);
+        System.out.println( Student2.name+"   "+  Student2.age);
+        System.out.println( Student3.name+"   "+  Student3.age);
+        System.out.println( Student4.name+"   "+  Student4.age);
 
 
     }

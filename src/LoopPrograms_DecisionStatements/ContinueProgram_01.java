@@ -12,14 +12,14 @@ public class ContinueProgram_01 {
     if number> 6 && number <11, don't print (8 and 10 should not get printed)
      */
 
-         for (int num=2 ; num<=20 ; num+=2) //initialization , condition , update
+         for (int num1=2 ; num1<=20 ; num1+=2) //initialization , condition , update
          {
-             if (num>6 && num<11) //condition to skip 8 & 10
+             if (num1>6 && num1<11) //condition to skip 8 & 10
              {
                  continue; // to continue the remaining iterations
              }
 
-             System.out.println(num); //statement to print
+             System.out.println(num1); //statement to print
          }
     }
 }

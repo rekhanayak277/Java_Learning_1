@@ -6,25 +6,27 @@ public class ReverseTheNumberUsingMethod {
 
 
     static int input = 14578;
-    public static int reverseNumber(int givenNumber) {
+    public static int reverse(int number) {
 
-        int reversedNumber = 0;
+        int reversed = 0;
 
-        while (givenNumber != 0) {
+        while (number != 0) {
 
-            int digit = givenNumber % 10;
+            int digit = number % 10;
 
-            reversedNumber = reversedNumber * 10 + digit;
+            reversed = reversed * 10 + digit;
 
-            givenNumber = givenNumber / 10;
+            number = number / 10;
         }
 
-        return reversedNumber;
+        return reversed;
     }
 
     public static void main(String[] args) {
 
-        int output = reverseNumber(input);
+        System.out.println("Given number is: " + input);
+
+        int output = reverse(input);
 
         System.out.println("Reversed number: " + output);
     }

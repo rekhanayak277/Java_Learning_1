@@ -9,20 +9,20 @@ public class TableOf3_multiplevariables_For {
         n1-constant, n2-increment by 1,
 
         Doubt -
-       Why code works with (n1+n2) added in print statement
-       Why does not work, when n3 is declared as (n1+n2) and in print statement, added as n3
+       Why code works with (n1*n2) added in print statement
+       Why does not work, when n3 is declared as (n1*n2) and in print statement, added as n3
 
 */
         public static void main(String[] args) {
 
-            int n1 =3;
+            final int num1 =3;
 
-            for (int n2 =1;  n2<=10 ; n2++)
+            for (int num2 =1;  num2<=10 ; num2++)
 
             {
-                int n3=n1*n2;
+                int result=num1*num2;
 
-                System.out.println(n1+ "*" +n2+"=" +n3);
+                System.out.println(num1+ "*" +num2+"=" +result);
             }
         }
 

@@ -1,6 +1,6 @@
-package IncrementDecrementOperator;
+package Operators.IncrementDecrementOperator;
 
-public class IncrementDecrementProgram_04 {
+public class Program_04 {
 
     // int x = 1, y=10, z=100;
     // int i = --x + y++ - z-- - --z + ++y - --x + y-- - --x;

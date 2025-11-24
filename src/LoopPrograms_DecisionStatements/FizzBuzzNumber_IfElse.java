@@ -11,27 +11,27 @@ public class FizzBuzzNumber_IfElse {
         If none, put that number in else statement
          */
 
-        for (int n = 1; n <= 50; n+=1) //initialization
+        for (int number = 1; number <= 50; number+=1) //initialization
         {
 
-             if (n%2==0 && n%5==0) //Condition
+             if (number%2==0 && number%5==0) //Condition
         {
-            System.out.println(n+"-FizzBuzz"); //statement
+            System.out.println(number+"-FizzBuzz"); //statement
         }
 
 
-          if (n%2==0) //Condition
+          if (number%2==0) //Condition
         {
-                System.out.println(n+"-Fizz");//statement
+                System.out.println(number+"-Fizz");//statement
 
             }
 
-         else if (n%5==0) //Condition
+         else if (number%5==0) //Condition
             {
-                 System.out.println(n+"-Buzz"); //statement
+                 System.out.println(number+"-Buzz"); //statement
                }
 
          else {
-            System.out.println(n + "- not divisible by 2 or 5"); //statement
+            System.out.println(number); //statement
         }
     }}}

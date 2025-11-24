@@ -3,16 +3,16 @@ package LoopPrograms_DecisionStatements;
 public class MultiplicationTable1To10WithLabelledBreak_DoWhileLoop {
 
     public static void main(String[] args) {
-        int i = 1; // initialisation
+        int num2 = 1; // initialisation
 
         outerloop:
 
         do {
-            int n = 1; // initialization - first do while loop
+            int num1 = 1; // initialization - first do while loop
 
             do {
 
-                int r = n * i; // for table
+                int r = num2 * num1; // for table
 
                 if (r > 30 && r % 7 == 0) // condititon
 
@@ -21,15 +21,15 @@ public class MultiplicationTable1To10WithLabelledBreak_DoWhileLoop {
 
                 }
 
-                System.out.println(n + "*" + i + "=" + r); // statement
+                System.out.println(num1 + "*" + num2 + "=" + r); // statement
 
-                n++; // update - inner loop
+                num1++; // update - inner loop
             }
-            while (n <= 10); // second do while loop - condition
+            while (num1 <= 10); // second do while loop - condition
 
-            i++; // update - outer loop
+            num2++; // update - outer loop
         }
-        while (i < 10);  // first do while loop - condition
+        while (num2< 10);  // first do while loop - condition
     }
 
 }

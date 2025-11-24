@@ -10,14 +10,14 @@ public class StopWhenDivisibleBy11 {
 
     public static void main(String[] args) {
 
-       for (int i=1 ; i<=20 ; i+=1) {
+       for (int number=1 ; number<=20 ; number+=1) {
 
-           if (i%11==0){
+           if (number%11==0){
 
                break;
            }
 
-           System.out.println(i);
+           System.out.println(number);
        }
 
 

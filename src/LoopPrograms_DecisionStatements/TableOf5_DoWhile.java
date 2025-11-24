@@ -4,15 +4,15 @@ public class TableOf5_DoWhile {
 
     public static void main(String[] args) {
 
-        int n = 5;
+        int num = 5;
 
         do {
 
-            System.out.println(n);
+            System.out.println(num);
 
-            n = n+=5;
+            num = num+=5;
         }
 
-        while (n <= 50);
+        while (num <= 50);
     }
     }

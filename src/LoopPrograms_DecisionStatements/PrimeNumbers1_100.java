@@ -14,13 +14,13 @@ public class PrimeNumbers1_100 {
          */
 
 
-        for (int n = 2; n <= 100; n++) { //initialization & condition & update
+        for (int num = 2; num <= 100; num++) { //initialization & condition & update
 
             int count = 0;
 
-            for (int i = 2; i < n; i++) { // inner for loop // initialize, condition and update
+            for (int i = 2; i < num; i++) { // inner for loop // initialize, condition and update
 
-                if (n % i == 0) { // to check if divisible ... a decision statement
+                if (num % i == 0) { // to check if divisible ... a decision statement
 
                     count++; //update
 
@@ -30,7 +30,7 @@ public class PrimeNumbers1_100 {
 
             if (count == 0) { // to check if prime ... a decision statement
 
-                System.out.println(n);
+                System.out.println(num);
             }
         }
     }

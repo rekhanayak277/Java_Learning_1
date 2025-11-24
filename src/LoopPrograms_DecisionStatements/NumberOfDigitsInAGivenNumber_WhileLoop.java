@@ -1,6 +1,6 @@
 package LoopPrograms_DecisionStatements;
 
-public class NumberofDigitsInAGivenNumber {
+public class NumberOfDigitsInAGivenNumber_WhileLoop {
 
     // program to find the number of digits in a given number 14578
 
@@ -15,19 +15,19 @@ public class NumberofDigitsInAGivenNumber {
      */
     public static void main(String[] args) {
 
-        int n = 14578; //given number
+        int number = 14578; //given number
 
-        int i=0; //count for digits - initialization
+        int counter =0; //count for digits - initialization
 
-        while (n>=1){ // condition
+        while (number>=1){ // condition
 
-            n = n/10; // to remove the last digit
+            number = number/10; // to remove the last digit
 
-            i++; //update
+            counter++; //update
 
 
         }
-        System.out.println("Number of digits in the given number 14578 is " + i); // statement
+        System.out.println("Number of digits in the given number 14578 is " + counter); // statement
             }
 
 }

@@ -13,7 +13,7 @@ public class Program_005 {
 
         int num2 = 1; // second number of the series
 
-        int count = 6;  // up to 10 fibonacci numbers
+        int count = 9;  // up to 10 fibonacci numbers
 
 
         for ( int i = 0 ; i<count ; i++) { //initialisation , condition. update

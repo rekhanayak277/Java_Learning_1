@@ -13,7 +13,7 @@ package Class_Object_Constructor;
 
      CarClass() // default constructor - user defined
     {
-        System.out.println("Car Object Is Created"); //Print statement
+        System.out.println("Car object is Created"); //Print statement
     }
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package IncrementDecrementOperator;
+package Operators.IncrementDecrementOperator;
 
-public class IncrementDecrementProgram_05 {
+public class Program_05 {
     //int i=0;
     // i = i++ - --i + ++i - i--;
     // System.out.println(i);

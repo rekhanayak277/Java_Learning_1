@@ -10,7 +10,7 @@ public class FibonacciNumbers_While {
                 Print - 0 1 1 2 3 5
 
           Logic here:
-          Define 1 variable to store the terms to be printed
+          Define 1 variable to store the count = 6
           Define 2 variables to store the first two numbers of the series
           Print the first two numbers
          use loop for times for the next 6 numbers in the series
@@ -19,24 +19,24 @@ public class FibonacciNumbers_While {
 
     public static void main(String[] args) {
 
-        int n = 0; // Number of Fibonacci terms to generate
+        int count = 0; // Number of Fibonacci terms to generate
 
-        int first = 0; // first number of teh series initialized
+        int num1 = 0; // first number of teh series initialized
 
-        int second = 1; // second number of the series initialized
+        int num2 = 1; // second number of the series initialized
 
 
-        while (n<6) { //Condition
+        while (count<6) { //Condition
 
-            System.out.println(first);
+            System.out.println(num1);
 
-            int sum = first + second;
+            int sum = num1 + num2;
 
-            first = second;
+            num1 = num2;
 
-            second = sum;
+            num2 = sum;
 
-            n++; // Increment for the loop
+            count++; // Increment for the loop
 
 
         }

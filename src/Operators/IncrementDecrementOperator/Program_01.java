@@ -1,6 +1,6 @@
-package IncrementDecrementOperator;
+package Operators.IncrementDecrementOperator;
 
-public class RunProgram1 {
+public class Program_01 {
 
 
 

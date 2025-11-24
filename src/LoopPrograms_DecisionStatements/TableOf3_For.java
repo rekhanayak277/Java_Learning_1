@@ -1,5 +1,7 @@
 package LoopPrograms_DecisionStatements;
 
+// Multiplication Table of a number 3 (for loop) - Single variable
+
 public class TableOf3_For {
 
     /*
@@ -10,9 +12,9 @@ public class TableOf3_For {
             */
 
     public static void main(String[] args) {
-        for (int n1=3; n1<=30; n1+=3){
+        for (int number=3; number<=30; number+=3){
 
-            System.out.println( n1);
+            System.out.println( number);
         }
 
         System.out.println("Coming out of the loop");

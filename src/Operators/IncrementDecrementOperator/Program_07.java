@@ -1,6 +1,6 @@
-package IncrementDecrementOperator;
+package Operators.IncrementDecrementOperator;
 
-public class IncrementDecrementProgram_02 {
+public class Program_07 {
     // int m = 0, n = 0;
 
     //int p = --m * --n * n-- * m--;
@@ -14,7 +14,7 @@ public class IncrementDecrementProgram_02 {
 
            //  p =  -1 * -1  * -1  * -1
 
-           System.out.println(p);
+           System.out.println(p); //1
        }
 }
 

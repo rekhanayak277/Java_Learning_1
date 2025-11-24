@@ -11,9 +11,9 @@ public class SumOfDigitsOfANumber_Forloop {
         int sum = 0; //  Variable to store the sum
 
 
-        for (int eachdigit = number ; eachdigit > 0 ; eachdigit = eachdigit/10 ) {   //initialization , condition. update
+        for (int digit = number ; digit > 0 ; digit = digit/10 ) {   //initialization , condition. update
 
-            sum = sum + eachdigit % 10;
+            sum = sum + digit % 10;
         }
 
         System.out.println("Sum of digits: " + sum); // statement

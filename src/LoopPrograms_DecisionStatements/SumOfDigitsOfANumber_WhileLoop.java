@@ -1,22 +1,38 @@
 package LoopPrograms_DecisionStatements;
 
+// Sum of digits of a number (while loop)
+
 public class SumOfDigitsOfANumber_WhileLoop {
+
+    /*
+    Logic here -
+
+    initiate sum with 0;
+    seperate the last digit using %10 and then add it to the sum;
+    for iteration, divide the remaining number by 10
+     */
 
     public static void main(String[] args) {
 
-            int num = 987654321; //given
 
-        int sum = 0 ; // initialization for the variable to store sum of the sigits
+                int number = 123456; // storing the given number
 
-        while (num > 0) { // condition
+                int sum = 0;   // for storing the sum of digits of given number
 
-            sum =  sum + num%10;
+                int originalNumber = number; // Keep a copy for display
 
-            num = num / 10; // update
+                while (number > 0) {
+
+                    int digit = number % 10;  // to Get last digit
+
+                    sum = sum + digit;        // Add it to sum
+
+                    number = number / 10;     // Remove last digit
+                }
+
+                System.out.println("Sum of digits of " + originalNumber + " = " + sum);
+            }
         }
 
-        System.out.println("Sum of the given digits is; " + sum);
 
-    }
 
-}

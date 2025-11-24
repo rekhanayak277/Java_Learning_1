@@ -8,7 +8,7 @@ public class PrintEvenIndexedCharacter {
 
         String text = "GoodmorningBadNight";
 
-        for (int i=0 ; i < text.length(); i++) {
+        for (int i=1 ; i < text.length(); i++) {
 
             if (i % 2 ==0) {
 

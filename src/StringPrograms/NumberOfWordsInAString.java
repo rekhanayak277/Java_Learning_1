@@ -6,15 +6,14 @@ public class NumberOfWordsInAString {
 
    public static void main(String[] args) {
 
-        String s = " Java is a good programming language";
+        String s = "Java is a good programming language";
 
-        s = s.trim(); // to remove spaces
+       String[] f = s.split("a");  // to split the sentence
 
-        String [] s1 = s.split("\\s+");   // to split the sentence
+       System.out.println(f.length);
 
-        int count = s1.length;
 
-        System.out.println("Number of words is : " + s1.length);
+     //  System.out.println("Number of words is : " + s1.length);
 
 
     }

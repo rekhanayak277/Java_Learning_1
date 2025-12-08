@@ -14,7 +14,7 @@ public class PrintCapitalLetters {
 
             if (ch1 >='A' && ch1 <= 'Z') {
 
-                System.out.println(ch1);
+                System.out.print(ch1);
             }
         }
     }

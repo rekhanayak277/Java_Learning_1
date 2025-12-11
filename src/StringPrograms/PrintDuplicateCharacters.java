@@ -11,6 +11,7 @@ public class PrintDuplicateCharacters {
         givenText = givenText.trim();
 
         for (int i = 0; i < givenText.length(); i++) {
+
             char ch1= givenText.charAt(i);
 
             for (int n = i + 1; n < givenText.length(); n++) {
